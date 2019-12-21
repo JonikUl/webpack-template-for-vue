@@ -1,0 +1,26 @@
+{
+  "name": "webpack-template-for-vue",
+  "version": "1.0.0",
+  "description": "Webpack template for Vuejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonikUl/webpack-template-for-vue.git"
+  },
+  "author": "Evgeniy Gromin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonikUl/webpack-template-for-vue/issues"
+  },
+  "homepage": "https://github.com/JonikUl/webpack-template-for-vue#readme",
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}

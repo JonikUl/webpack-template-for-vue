@@ -17,7 +17,10 @@
     "url": "https://github.com/JonikUl/webpack-template-for-vue/issues"
   },
   "homepage": "https://github.com/JonikUl/webpack-template-for-vue#readme",
+<<<<<<< HEAD
   "devDependencies": {
+=======
+>>>>>>> ee2910b037f4ee04cad1db5fcd66898c64bd9cac
     "path": "^0.12.7",
     "webpack": "^4.41.4",
     "webpack-cli": "^3.3.10",

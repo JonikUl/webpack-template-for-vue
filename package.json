@@ -7,6 +7,10 @@
     "dev": "webpack-dev-server --open --mode development",
     "build": "webpack --mode production"
   },
+  "browserlists": [
+    "> 1%",
+    "last 3 version"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JonikUl/webpack-template-for-vue.git"
@@ -18,13 +22,22 @@
   },
   "homepage": "https://github.com/JonikUl/webpack-template-for-vue#readme",
   "devDependencies": {
-    "path": "^0.12.7",
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.10.1",
     "@babel/core": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
+    "autoprefixer": "^9.7.3",
     "babel-loader": "^8.0.6",
-    "vue": "^2.6.11"
+    "css-loader": "^3.4.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "path": "^0.12.7",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.1.1",
+    "vue": "^2.6.11",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
   }
 }
